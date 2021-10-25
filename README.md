@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+# Module 22: State Challenge: Redux Store
+
+## About this App
+This application uses Redux to manage global state for an e-commerce website. This was created based on the Module 22 coursework from the GW Coding Bootcamp, and also uses the Redux + Plain JS template from https://redux.js.org/introduction/getting-started, as described below:
+
 ## Available Scripts
 
 In the project directory, you can run:
