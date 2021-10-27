@@ -2,12 +2,9 @@
 
 import React, { useEffect } from "react";
 import ProductItem from "../ProductItem";
-import { useStoreContext } from "../../utils/GlobalState";
-import { UPDATE_PRODUCTS } from "../../utils/actions";
 import { useQuery } from '@apollo/react-hooks';
 import { QUERY_PRODUCTS } from "../../utils/queries";
 import { idbPromise } from "../../utils/helpers";
-import spinner from "../../assets/spinner.gif"
 
 function ProductList() {
   const [state, dispatch] = useStoreContext();
@@ -45,7 +42,7 @@ function ProductList() {
 
   return (
     <div className="my-2">
-      <h2>Our Products:</h2>
+      <h2> Products:</h2>
       {state.products.length ? (
         <div className="flex-row">
             {filterProducts().map(product => (
@@ -60,7 +57,7 @@ function ProductList() {
             ))}
         </div>
       ) : (
-        <h3>You haven't added any products yet!</h3>
+        <h3>There are no products added here</h3>
       )}
       { loading ? 
       <img src={spinner} alt="loading" />: null}
