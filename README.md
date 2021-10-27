@@ -2,6 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Module 22: State Challenge: Redux Store
 
+## Link to the Website
+Visit the Redux Store at this website!    
+https://polar-oasis-65194.herokuapp.com/
+
 ## About this App
 Welcome to the Redux Store! This application uses Redux to manage global state for an e-commerce website. I created this based on the Module 22 coursework, Shop Shop, from the GW Coding Bootcamp, and I also used the Redux + Plain JS template from https://redux.js.org/introduction/getting-started, as described below:
 
